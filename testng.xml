@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Suite">
+  <test  name="Regression Test">
+    <classes>
+      <class name="pe.edu.galaxy.Annotations"/>
+      <class name="pe.edu.galaxy.Shopping"/>
+    </classes>
+  </test>
+  <test  name="Integration Test">
+    <classes>
+      <class name="pe.edu.galaxy.Invoice"/>
+      <class name="pe.edu.galaxy.Annotations"/>
+    </classes>
+  </test><!-- Test -->
+</suite> <!-- Suite -->
